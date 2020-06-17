@@ -7,11 +7,11 @@ function App() {
       <nav className="nav-bar">
         <li className="nav-logo">Logo</li>
         <div className="nav-items">
-          <li className="nav-item">Item 1</li>
-          <li className="nav-item">Item 2</li>
-          <li className="nav-item">Item 3</li>
-          <li className="nav-item">Item 4</li>
-          <li className="nav-item">Item 5</li>
+          <li className="nav-item">-</li>
+          <li className="nav-item">-</li>
+          <li className="nav-item">-</li>
+          <li className="nav-item">-</li>
+          <li className="nav-item">-</li>
         </div>
       </nav>
 
@@ -21,15 +21,31 @@ function App() {
       </section>
 
       <section className="section-two">
-        <h1>Meowsy 2</h1>
+        <h1>Here are 3 random boxes.</h1>
+        <p>(So I could practise flexbox.)</p>
+        <p>(I like these dashed lines. Yay :D)</p>
+
+        <div className="boxes">
+          <div className="box">Box 1</div>
+          <div className="box">Box 2</div>
+          <div className="box">Box 3</div>
+        </div>
       </section>
 
       <section className="section-three">
-        <h1>Meowsy 3</h1>
+        <h1>Now lets see some colorful spheres.</h1>
+        <div className="spheres">
+          <div className="sphere"></div>
+          <div className="sphere"></div>
+          <div className="sphere"></div>
+          <div className="sphere"></div>
+          <div className="sphere"></div>
+        </div>
       </section>
 
       <section className="section-four">
-        <h1>Meowsy 4</h1>
+        <h1>I am just learning CSS and React.</h1>
+        <button>Yay</button>
       </section>
     </div>
   );
