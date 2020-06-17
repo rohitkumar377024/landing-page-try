@@ -1,0 +1,73 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav Bar */
+.nav-bar {
+  position: fixed;
+  width: 100vw;
+  background-color: #00000027;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  list-style: none;
+  color: white;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+/* Section 1 */
+section {
+  height: 100vh;
+}
+
+.section-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #162447;
+}
+
+.section-one > h1 {
+}
+
+.section-one > p {
+}
+
+/* Section 2 */
+.section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #1f4068;
+}
+
+/* Section 3 */
+.section-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #1b1b2f;
+}
+
+/* Section 4 */
+.section-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #e43f5a;
+}
