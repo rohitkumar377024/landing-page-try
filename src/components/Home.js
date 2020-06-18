@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Sections = () => {
+const Home = () => {
   return (
     <div>
       <section className="section-one">
@@ -9,14 +9,13 @@ const Sections = () => {
       </section>
 
       <section className="section-two">
-        <h1>Here are 3 random boxes.</h1>
+        <h1>Here are 2 random boxes.</h1>
         <p>(So I could practise flexbox.)</p>
         <p>(I like these dashed lines. Yay :D)</p>
 
         <div className="boxes">
           <div className="box">Box 1</div>
           <div className="box">Box 2</div>
-          <div className="box">Box 3</div>
         </div>
       </section>
 
@@ -39,4 +38,4 @@ const Sections = () => {
   );
 };
 
-export default Sections;
+export default Home;

@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 500px) {
+  .boxes {
+    flex-direction: column;
+  }
+}
+
 /* Sizes */
 h1 {
   font-size: 4em;
@@ -73,7 +79,6 @@ section {
   height: 75vh;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
   align-items: center;
 }
 
