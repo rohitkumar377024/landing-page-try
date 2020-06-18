@@ -5,19 +5,27 @@ const Header = () => {
   return (
     <div>
       <nav className="nav-bar">
-        <div className="nav-logo">Logo</div>
+        <div className="nav-logo">Rohit Kumar</div>
         <ul className="nav-items">
           <li className="nav-item">
-            <Link to="/">Home</Link>
+            <Link style={{ textDecoration: 'none', color: 'white' }} to="/">
+              Home
+            </Link>
           </li>
           <li className="nav-item">
-            <Link to="/skills">Skills</Link>
+            <Link style={{ textDecoration: 'none', color: 'white' }} to="/skills">
+              Skills
+            </Link>
           </li>
           <li className="nav-item">
-            <Link to="/about">About Us</Link>
+            <Link style={{ textDecoration: 'none', color: 'white' }} to="/about">
+              About Us
+            </Link>
           </li>
           <li className="nav-item">
-            <Link to="/contact">Contact Us</Link>
+            <Link style={{ textDecoration: 'none', color: 'white' }} to="/contact">
+              Contact Us
+            </Link>
           </li>
         </ul>
       </nav>

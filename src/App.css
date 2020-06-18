@@ -5,12 +5,6 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 500px) {
-  .boxes {
-    flex-direction: column;
-  }
-}
-
 /* Sizes */
 h1 {
   font-size: 4em;
@@ -30,12 +24,12 @@ p {
   display: flex;
   justify-content: space-between;
   padding: 25px;
-  list-style: none;
   color: white;
 }
 
 .nav-items {
   display: flex;
+  list-style: none;
 }
 
 .nav-item {
@@ -80,6 +74,12 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+@media (max-width: 500px) {
+  .boxes {
+    flex-direction: column;
+  }
 }
 
 .box {
@@ -131,4 +131,14 @@ section {
   font-weight: bold;
   margin-top: 32px;
   padding: 16px;
+}
+
+/* Error Page */
+.section-error {
+  height: 100vh;
+  background-color: #32e0c4;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }

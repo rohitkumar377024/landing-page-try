@@ -3,10 +3,10 @@ import './App.css';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 
 import Header from './components/Header';
-import Home from './components/Home';
-import Skills from './components/Skills';
-import AboutUs from './components/AboutUs';
-import ContactUs from './components/ContactUs';
+import Home from './pages/Home';
+import Skills from './pages/Skills';
+import AboutUs from './pages/AboutUs';
+import ContactUs from './pages/ContactUs';
 import Error404 from './components/Error404';
 
 function App() {
