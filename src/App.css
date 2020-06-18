@@ -142,3 +142,72 @@ section {
   text-align: center;
   justify-content: center;
 }
+
+/* Skills Page */
+.section-skills {
+  height: 100vh;
+  background-color: #80bdab;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-list {
+  margin: 50px;
+  padding: 50px;
+  max-width: 560px;
+  width: 75%;
+  border: 2px solid black;
+  border-radius: 8px;
+  list-style-type: circle;
+  font-size: 1.5em;
+}
+
+/* About Page */
+.section-about {
+  height: 100vh;
+  background-color: #ff9595;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Contact Page */
+.section-contact {
+  height: 100vh;
+  background-color: #fbc687;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-contact > h1 {
+  margin: 0 0 75px;
+}
+
+.section-contact > input {
+  max-width: 560px;
+  width: 75%;
+  padding: 15px;
+  margin: 5px 0;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
+.send-btn {
+  max-width: 560px;
+  width: 75%;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #80bdab;
+  border: 2px solid white;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
