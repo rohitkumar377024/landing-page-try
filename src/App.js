@@ -16,10 +16,11 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/landing-page-try" component={Home} />
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/about" component={AboutUs} />
           <Route exact path="/contact" component={ContactUs} />
-          <Route component={Error404} />
+          />
         </Switch>
       </Router>
     </div>
