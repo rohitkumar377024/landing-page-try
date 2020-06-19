@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Switch, Redirect, BrowserRouter as Router } from 'react-router-dom';
 
 import Header from './components/Header';
 import Home from './pages/Home';
@@ -16,11 +16,10 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/landing-page-try" component={Home} />
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/about" component={AboutUs} />
           <Route exact path="/contact" component={ContactUs} />
-          />
+          <Redirect from="*" to="/" />
         </Switch>
       </Router>
     </div>
